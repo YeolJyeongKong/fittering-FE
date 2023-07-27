@@ -6,10 +6,10 @@ import GlobalMenu from '../components/GlobalMenu';
 export default function Home() {
   return (
     <section>
-      <Section sectionName='자주 방문한 쇼핑몰' />
+      <Section sectionName="자주 방문한 쇼핑몰" />
       {/* @ts-expect-error Server Component */}
       <RankedMallPreview />
-      <Section sectionName='열졍콩님을 위한 추천 상품' />
+      <Section sectionName="열졍콩님을 위한 추천 상품" />
       <GlobalFilter />
       <GlobalMenu />
     </section>
