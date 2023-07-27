@@ -10,6 +10,7 @@ export default function Home() {
       {/* @ts-expect-error Server Component */}
       <RankedMallPreview />
       <Section sectionName="열졍콩님을 위한 추천 상품" />
+      <div className="block bg-bean-head-color w-full h-[1000vh]"></div>
       <GlobalFilter />
       <GlobalMenu />
     </section>
